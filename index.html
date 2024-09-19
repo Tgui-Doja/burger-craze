@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Craze</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">Burger Craze</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reservation">Réservations</a></li>
+            </ul>
+        </nav>
+<!-- Bouton pour basculer le thème -->
+<button class="theme-toggle">Changer le Mode</button>
+        <div class="burger-menu" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Les meilleurs burgers en ville</h1>
+            <p>Découvrez nos délicieux burgers faits avec des ingrédients frais et de qualité.</p>
+            <a href="#order" class="btn-cta">Commander maintenant</a>
+            <a href="#reservation" class="btn-cta-secondary">Réserver une table</a>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Notre Menu</h2>
+    
+        <div class="menu-category">
+            <h3>Burgers</h3>
+            <div class="menu-item">
+                <img src="burger1.jpg" alt="Classic Burger">
+                <div class="menu-item-details">
+                    <h4>Classic Burger <span class="price">$10.99</span></h4>
+                    <p>Burger classique avec bœuf, fromage, laitue, tomate et sauce maison.</p>
+                    <span class="badge">Sans Gluten</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="burger2.jpg" alt="Veggie Burger">
+                <div class="menu-item-details">
+                    <h4>Veggie Burger <span class="price">$9.99</span></h4>
+                    <p>Burger végétarien avec galette de légumes, avocat, et sauce au poivre.</p>
+                    <span class="badge">Végétarien</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="menu-category">
+            <h3>Boissons</h3>
+            <div class="menu-item">
+                <img src="soda.jpg" alt="Soda">
+                <div class="menu-item-details">
+                    <h4>Soda <span class="price">$2.99</span></h4>
+                    <p>Sodas variés : Cola, Orange, Citron.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Itea.jpg" alt="Iced Tea">
+                <div class="menu-item-details">
+                    <h4>Iced Tea <span class="price">$3.50</span></h4>
+                    <p>Thé glacé maison avec citron et menthe fraîche.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <div class="menu-item">
+                <img src="dessert1.jpg" alt="Cheesecake">
+                <div class="menu-item-details">
+                    <h4>Cheesecake <span class="price">$5.99</span></h4>
+                    <p>Cheesecake crémeux avec coulis de fruits rouges.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="dessert2.jpg" alt="Glace">
+                <div class="menu-item-details">
+                    <h4>Glace <span class="price">$4.50</span></h4>
+                    <p>Glaces variées : vanille, chocolat, fraise.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="menu-category">
+            <h3>Accompagnements</h3>
+            <div class="menu-item">
+                <img src="fries.JPG" alt="Frites">
+                <div class="menu-item-details">
+                    <h4>Frites <span class="price">$3.99</span></h4>
+                    <p>Frites croustillantes avec ketchup ou sauce barbecue.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="salade.jpg" alt="Salade">
+                <div class="menu-item-details">
+                    <h4>Salade Verte <span class="price">$4.99</span></h4>
+                    <p>Salade verte avec vinaigrette maison.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us" id="about">
+        <h2>À propos de nous</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Notre Histoire</h3>
+                <p>
+                    Fondé en 2010, notre restaurant s’est donné pour mission de créer des burgers savoureux et uniques. Utilisant uniquement des ingrédients frais et locaux, nous avons créé un menu qui fusionne des saveurs classiques et innovantes. Nous sommes fiers de proposer des options pour tous les goûts, avec des burgers faits maison et des accompagnements délicieux.
+                </p>
+                <p>
+                    Notre concept est simple : des burgers authentiques, une ambiance conviviale et un service exceptionnel. Chez <strong>Urban Burger</strong>, chaque plat est préparé avec passion et souci du détail.
+                </p>
+            </div>
+            <div class="about-team">
+                <h3>Notre Équipe</h3>
+                <div class="team-member">
+                    <img src="chef.jpg" alt="Chef de cuisine">
+                    <div class="team-member-info">
+                        <h4>Chef  Dupont</h4>
+                        <p>
+                            Avec plus de 15 ans d'expérience dans la cuisine, le Chef Antoine est l'âme créative derrière nos burgers. Sa passion pour les ingrédients de qualité et les saveurs authentiques nous permet de proposer des plats qui séduisent les papilles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <h2>Ce que disent nos clients</h2>
+        <div class="reviews-container">
+            <div class="review">
+                <div class="review-rating">
+                    ★★★★☆
+                </div>
+                <p class="review-text">"Les burgers sont absolument incroyables ! Le pain est moelleux, et les ingrédients sont toujours frais. C'est de loin mon restaurant préféré pour les burgers !"</p>
+                <h4 class="review-author">- Sarah Dupont</h4>
+            </div>
+            <div class="review">
+                <div class="review-rating">
+                    ★★★★★
+                </div>
+                <p class="review-text">"Le service est excellent et les portions sont généreuses. J'adore les options végétariennes, le veggie burger est un must-try !"</p>
+                <h4 class="review-author">- Karim Benali</h4>
+            </div>
+            <div class="review">
+                <div class="review-rating">
+                    ★★★★☆
+                </div>
+                <p class="review-text">"Ambiance chaleureuse et accueillante. Les desserts sont également délicieux, surtout le cheesecake. Je recommande vivement !"</p>
+                <h4 class="review-author">- Léa Martin</h4>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2>Notre Galerie</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://example.com/burger1.jpg" alt="Burger classique">
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/burger2.jpg" alt="Burger végétarien">
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/interior1.jpg" alt="Intérieur du restaurant">
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/ambiance.jpg" alt="Ambiance conviviale">
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/burger3.jpg" alt="Burger avec frites">
+            </div>
+            <div class="gallery-item">
+                <img src="https://example.com/dessert.jpg" alt="Dessert maison">
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contactez-Nous</h2>
+        <div class="contact-content">
+            <!-- Formulaire de contact -->
+            <div class="contact-form">
+                <h3>Formulaire de Contact</h3>
+                <form action="mailto:contact@restaurant.com" method="post" enctype="text/plain">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+            
+            <!-- Coordonnées -->
+            <div class="contact-info">
+                <h3>Coordonnées</h3>
+                <p><strong>Adresse :</strong> 123 Rue des Burgers, 75000 Paris</p>
+                <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+                <p><strong>Horaires d'ouverture :</strong></p>
+                <ul>
+                    <li>Lundi - Vendredi : 11h - 22h</li>
+                    <li>Samedi - Dimanche : 12h - 23h</li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Carte interactive -->
+        <div class="map">
+            <h3>Nous Trouver</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999328127549!2d2.2922927156743404!3d48.85884497928777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d8c56b1db7%3A0x0b9a08fae9baf8e1!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1636359331715!5m2!1sen!2sfr" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    <section class="reservation" id="reservation">
+        <h2>Réservez une Table</h2>
+        <div class="reservation-content">
+            <!-- Formulaire de réservation -->
+            <div class="reservation-form">
+                <h3>Réservez Maintenant</h3>
+                <form action="mailto:reservation@restaurant.com" method="post" enctype="text/plain">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Téléphone :</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="date">Date :</label>
+                    <input type="date" id="date" name="date" required>
+                    
+                    <label for="time">Heure :</label>
+                    <input type="time" id="time" name="time" required>
+                    
+                    <label for="guests">Nombre de personnes :</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                    
+                    <button type="submit">Envoyer la Réservation</button>
+                </form>
+            </div>
+            
+            <!-- Option de réservation en ligne -->
+            <div class="reservation-online">
+                <h3>Réservation en Ligne</h3>
+                <p>Pour réserver une table en ligne, veuillez utiliser la plateforme de réservation suivante :</p>
+                <a href="https://www.opentable.com/" target="_blank" class="reservation-link">Réservez avec OpenTable</a>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <h2>Blog & Actualités</h2>
+        <div class="blog-container">
+            <!-- Article 1 -->
+            <article class="blog-post">
+                <img src="https://example.com/new-dish.jpg" alt="Nouveau Plat" class="blog-image">
+                <h3>Nouveau Plat : Burger Gourmet</h3>
+                <p class="blog-date">15 septembre 2024</p>
+                <p>Nous sommes ravis de vous présenter notre nouveau burger gourmet, préparé avec des ingrédients frais et de qualité. Venez le découvrir dès aujourd'hui dans notre restaurant !</p>
+                <a href="/blog/nouveau-plat.html" class="read-more">Lire la suite</a>
+            </article>
+    
+            <!-- Article 2 -->
+            <article class="blog-post">
+                <img src="https://example.com/event.jpg" alt="Événement Spécial" class="blog-image">
+                <h3>Soirée Burger & Musique Live</h3>
+                <p class="blog-date">10 septembre 2024</p>
+                <p>Rejoignez-nous pour une soirée spéciale avec de la musique live et des burgers exclusifs ! Réservez votre place maintenant et ne manquez pas cet événement exceptionnel.</p>
+                <a href="/blog/soiree-burger.html" class="read-more">Lire la suite</a>
+            </article>
+    
+            <!-- Article 3 -->
+            <article class="blog-post">
+                <img src="https://example.com/promotion.jpg" alt="Promotion" class="blog-image">
+                <h3>Promotion Spéciale d'Automne</h3>
+                <p class="blog-date">1er septembre 2024</p>
+                <p>Pour célébrer l'arrivée de l'automne, nous offrons une réduction de 20% sur tous nos burgers. Profitez-en dès maintenant et savourez nos plats avec une touche de saison !</p>
+                <a href="/blog/promotion-automne.html" class="read-more">Lire la suite</a>
+            </article>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Liens vers les réseaux sociaux -->
+            <div class="social-media">
+                <h3>Suivez-Nous</h3>
+                <a href="https://www.facebook.com/restaurant" target="_blank" class="social-icon">Facebook</a>
+                <a href="https://www.instagram.com/restaurant" target="_blank" class="social-icon">Instagram</a>
+                <a href="https://www.twitter.com/restaurant" target="_blank" class="social-icon">Twitter</a>
+            </div>
+    
+            <!-- Mentions légales et politique de confidentialité -->
+            <div class="legal-info">
+                <h3>Informations Légales</h3>
+                <a href="/mentions-legales.html">Mentions Légales</a>
+                <a href="/politique-confidentialite.html">Politique de Confidentialité</a>
+            </div>
+    
+            <!-- Informations de contact -->
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p><strong>Adresse :</strong> 123 Rue des Burgers, 75000 Paris</p>
+                <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+                <p><strong>Email :</strong> <a href="mailto:contact@restaurant.com">contact@restaurant.com</a></p>
+            </div>
+    
+            <!-- Liens rapides -->
+            <div class="quick-links">
+                <h3>Liens Rapides</h3>
+                <a href="#home">Accueil</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">À Propos</a>
+                <a href="#contact">Contact</a>
+                <a href="#reservation">Réservation</a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Restaurant Burger. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
